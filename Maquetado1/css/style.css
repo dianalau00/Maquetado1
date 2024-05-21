@@ -1,0 +1,211 @@
+/*
+Universidad Tecnológica Metropolitana
+Aplicaciones Web
+Ing. Ruth Martínez.
+Actividad 2
+Maquetacion
+Diana Laura Chan Martínez
+Tercer cuatrimestre
+3-C
+Trabajo entregado en tiempo y forma calificado en base a 10.
+Trabajos entregados en fecha posterior sin justificación son calificados en base a 8.
+*/   
+nav{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    width: 1000px;
+    height: 100px;
+    background-color: #F0FFFF;
+    border: 4px solid #000000;
+}
+
+.flex-items{
+    background-color: #DEB887;
+}
+  
+.flex-items:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    width: 100px;
+    height: 50px;
+
+}
+  
+.flex-items:nth-child(2) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    width: 100px;
+    height: 50px;
+}
+  
+.flex-items:nth-child(3) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    width: 100px;
+    height: 50px;
+}
+  
+.flex-items:nth-child(4) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    width: 100px;
+    height: 50px;
+}
+  
+.flex-items:nth-child(5) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    width: 100px;
+    height: 50px;
+}
+
+/***********************************************/
+
+
+header{
+    height: 300px;
+    width: 1000px;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    border: 3px solid black;
+}
+
+.banner{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 800px;
+    height: 250px;
+    margin-top: 25px;
+    font-family: Verdana, sans-serif;
+    size: 30px; 
+    text-align: center;
+}
+
+.section1{ 
+    width: 280px;
+    height: 300px;
+    margin-top: 5px;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.section1-font{
+    width: 260px;
+    height: 70px;   
+    text-align:center;
+    background-color: white;
+    font-family: Verdana, sans-serif;
+    size: 30px; 
+    text-align: center;
+}
+/**********************************************************/
+.flex-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: burlywood;
+    border: 2px solid #000000;
+}
+
+.main-items{
+    border: 2px solid #000000;
+    background-color: blueviolet;
+ 
+
+    
+}
+  
+.main-items:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    height: 400px;
+    width: 200px;
+}
+  
+.main-items:nth-child(2) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    height: 400px;
+    width: 500px;
+}
+  
+.main-items:nth-child(3) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    height: 400px;
+    width: 200px;
+}
+  
+main {
+    height: 500px;
+
+
+}
+
+footer{
+    background-color: cadetblue;
+    height: 50px;
+    width: 1000px;
+    margin: 0 auto;
+    border: 2px solid #000000;
+}
